@@ -19,6 +19,7 @@ class Dashboard extends Component {
     
   }
   
+  
   componentWillMount() {
     fAuth.onAuthStateChanged(user =>{
       store.dispatch(loginState(user));
