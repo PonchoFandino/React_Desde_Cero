@@ -1,0 +1,220 @@
+body {
+    background-color: rgb(168, 167, 162);
+    font-family: 'Courier New', Courier, monospace;
+    height: 18px;
+}
+.wellcome {
+    background-color: rgb(168, 167, 162);
+    height: 100%;
+    background-size: 100%;
+    margin-top: 10px;
+    font-size: 2.5em;
+    color:#404040;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-font-smoothing:antialiased ;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: center;
+}
+.wellcome> div {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    background: #F0E5C3;
+    position: relative;
+    box-shadow: 3px 3px 5px 0px #6e6d6d;
+}
+
+.wellcome> div::before{
+    box-shadow: 3px 3px 5px 0px #6e6d6d;
+    border-left: 27px solid rgb(168, 167, 162);
+    border-right: 27px solid rgb(255, 249, 231);
+    border-top: 27px solid rgb(168, 167, 162);
+    border-bottom: 27px solid rgb(255, 249, 231);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:0;  
+}
+
+.img {
+    margin:10px;
+    max-width: 30px;
+    max-width: 30px;
+};
+
+span{
+    display: inline-flex;
+}
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+    vertical-align: center;
+    /* margin-top: 15px; */
+}
+
+
+.buttonChange:hover{
+    cursor: pointer;
+}
+
+
+
+.aab-span-multi {
+    display: grid;
+}
+
+.aab-list-item {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.aab-list-item>ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.75rem;
+    font-weight: bold;
+    text-decoration: inherit;
+    text-transform: inherit;
+    color: #404040;
+    color: var(--mdc-theme-text-primary-on-background, rgba(0, 0, 0, .87));
+    margin: 0;
+    line-height: 1.5rem;
+    list-style-type: none;
+    border: none;
+    margin: auto;
+    -webkit-padding-start: 0px !important;
+
+}
+
+.aab-list-item>ul>li {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 15px 16px;
+    overflow: hidden;
+}
+
+.aab-list-item>ul>li:hover {
+    background:#404040;
+    color: #F0E5C3;
+    cursor: pointer;
+}
+
+.aab-icon-list {
+    margin-left: 0;
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.aab-span-title {
+    float: left;
+}
+
+.aab-span-titleS {
+    -moz-osx-font-smoothing: grayscale;
+    font-size: .875rem;
+    letter-spacing: .01786em;
+    text-decoration: inherit;
+    text-transform: inherit;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 0;
+    display: inline-block;
+    color: #737373;
+}
+
+.aab-icon-right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.aab-table {
+    --mdc-ripple-fg-size: 360px;
+    --mdc-ripple-fg-scale: 1.7064;
+    --mdc-ripple-fg-translate-start: -30.5px, -138.188px;
+    --mdc-ripple-fg-translate-end: 120px, -144px;
+}
+
+.aab-flex {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top:5px;
+
+}
+.abb-flex > button {
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+.aab-flex > span {
+    margin: auto 10px;
+}
+
+.aab-invalid {
+    color: #9c0303;
+    font-family: monospace;
+}
+button:disabled {
+  opacity: .3;
+}
+
+.aab-ok {
+  background:#50634f;
+  opacity: 0.75;
+}
+
+.aab-todo {
+   background: #f18427;
+}
+
+.aab-delete {
+    background: rgb(109, 54, 54);
+    opacity: 0.75;
+}
+.aab-count  {
+    position: absolute;
+    right: 30px;
+    background: #404040;
+    color:#F0E5C3;
+    padding: 10px;
+    border-radius: 2px;
+    
+}
+.aab-count>div {
+    display: inline-block;
+    margin: auto 5px;
+    
+
+}
+.aab-count>div>i {
+    margin: inherit;
+    display: block;
+}
+.aab-count>div>span {
+    margin: inherit;
+}
+
+/* .aab-i {
+    font-size: .7em !important;
+    color: #6D6162;
+} */
+
+
+.aab-through {
+    text-decoration: line-through;
+}
